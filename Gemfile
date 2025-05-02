@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
+ruby "2.7.8"
+
 gem "scraperwiki", git: "https://github.com/openaustralia/scraperwiki-ruby.git", branch: "morph_defaults"
 gem "mechanize"
 gem "pry"
-gem 'sqlite3', '1.3.10'
+gem "sqlite3", "1.3.10"
