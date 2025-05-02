@@ -1,6 +1,5 @@
 require 'scraperwiki'
 require 'mechanize'
-require 'pry'
 
 date = Time.now.strftime('%Y-%m-%d')
 agent = Mechanize.new
